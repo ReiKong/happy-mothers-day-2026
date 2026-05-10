@@ -225,7 +225,7 @@ function WaterDrop({ burst }) {
 
 function AsciiPlant({ lines, faded = false }) {
   return (
-    <pre className="m-0 font-mono text-[24px] font-bold leading-[15px]" style={{ fontFamily: "'Kode Mono', monospace" }}>
+    <pre className="m-0 font-mono text-[14px] leading-[10px] sm:text-[24px] sm:leading-[15px]" style={{ fontFamily: "'Kode Mono', monospace" }}>
       {lines.map((line, index) => (
         <div key={`${line.text}-${index}`} style={{ color: faded ? "rgba(178,191,90,0.2)" : line.color }}>
           {line.text}
