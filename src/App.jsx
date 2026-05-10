@@ -74,7 +74,7 @@ const MESSAGE_FLOWER_VARIANTS = [
     width: 34,
     height: 30,
     lines: [
-      { text: "(*)", color: "#f7febc" },
+      { text: "(*)", color: "#feebbc" },
       { text: " | ", color: "#b2bf5a" },
     ],
   },
