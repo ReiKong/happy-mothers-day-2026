@@ -142,7 +142,6 @@ function makeMessageFlowers() {
   const points = [];
   const random = mulberry32(88);
 
-  // Each letter “pixel” is a full ASCII flower, so spacing has to be wide.
   const rowHeight = 16;
   const cellX = 1.5;
   const cellY = 2.3;
@@ -190,7 +189,7 @@ function WateringCan({ position }) {
     >
 {`   __
   /  \\__
- | ASCII)> 
+ | )> 
   \\__/`}
     </pre>
   );
@@ -201,8 +200,8 @@ function WaterDrop({ burst }) {
     { text: "   v", color: "#add6f7", x: 0, delay: 0 },
     { text: "   v", color: "#add6f7", x: -18, delay: 0.08 },
     { text: "   v", color: "#add6f7", x: 18, delay: 0.14 },
-    { text: "   Y", color: "#c8d665", x: -8, delay: 0.22 },
-    { text: " ^^^^^", color: "#c8d665", x: -16, delay: 0.34 },
+    { text: "   Y", color: "#add6f7", x: -8, delay: 0.22 },
+    { text: " ^^^^^", color: "#add6f7", x: -16, delay: 0.34 },
   ];
 
   return (
